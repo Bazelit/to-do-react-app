@@ -1,0 +1,39 @@
+.item {
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.itemName {
+  font-weight: 700;
+  font-size: 24px;
+  padding: 20px;
+  border-bottom: 1px solid #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deleteButton {
+  border: none;
+  font-size: 20px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  background-color: #f7ca18;
+  cursor: pointer;
+  margin-top: -5px;
+  transition: all 0.3s ease;
+}
+
+.deleteButton:active {
+  transform: scale(0.85);
+}
+
+.deleteButton:hover {
+  background-color: #ffdd53;
+}
+
+.complited {
+  font-weight: normal;
+  color: #636363;
+  text-decoration: line-through;
+}
